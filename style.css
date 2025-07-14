@@ -21,6 +21,8 @@ body {
 .cont {
     background-color: white;
     max-width: 320px;
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .mobile-img {
@@ -52,6 +54,7 @@ body {
 .price-section {
     display: flex;
     align-items: center;
+    gap: 15px;
 }
 
 .current-price {
@@ -65,4 +68,26 @@ body {
     color: #6c7289ff;
     font-size: 14px;
     text-decoration: line-through;
+}
+
+button {
+    background-color: #3c8067ff;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin: 15px 0;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    cursor: pointer;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #1b4133ff;
 }
