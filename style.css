@@ -15,7 +15,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
 }
 
 .cont {
@@ -34,15 +33,15 @@ body {
 }
 
 .text-section {
-    padding: 20px;
+    padding: 1.5rem;
     text-align: left;
 }
 
 .product, .description {
     color: #6c7289ff;
     font-family: "Montserrat", sans-serif;
-    font-size: 14px;
-    margin-bottom: 15px;
+    font-size: 1rem;
+    margin-bottom: 1rem;
 }
 
 .product {
@@ -50,19 +49,19 @@ body {
 }
 
 .description {
-    line-height: 1.5em;
+    line-height: 1.5;
 }
 
 .prod-name {
     font-family: "Fraunces", serif;
-    font-size: 28px;
-    margin-bottom: 15px;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .price-section {
     display: flex;
     align-items: center;
-    gap: 15px;
+    gap: 1rem;
 }
 
 .current-price {
@@ -81,19 +80,20 @@ body {
 button {
     background-color: #3c8067ff;
     color: white;
-    padding: 10px 0;
+    padding: 0.75rem 0;
     width: 100%;
-    margin: 15px 0;
+    margin: 1rem 0;
     border: none;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 10px;
+    gap: 1rem;
     cursor: pointer;
     font-family: "Montserrat", sans-serif;
     font-weight: 700;
-    font-size: 14px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
 }
 
 button:hover {
@@ -117,11 +117,11 @@ button:hover {
     }
 
     .text-section {
-        padding: 35px;
+        padding: 2em;
     }
 
     .prod-name {
-        font-size: 35px;
+        font-size: 2rem;
     }
   
 }
