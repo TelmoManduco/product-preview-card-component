@@ -91,3 +91,11 @@ button {
 button:hover {
     background-color: #1b4133ff;
 }
+
+
+@media screen and (min-width: 768px) {
+    .cont {
+        max-width: 600px;
+        display: flex;
+    }
+}
