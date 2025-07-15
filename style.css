@@ -49,6 +49,10 @@ body {
     letter-spacing: 5px;
 }
 
+.description {
+    line-height: 1.5em;
+}
+
 .prod-name {
     font-family: "Fraunces", serif;
     font-size: 28px;
@@ -101,6 +105,23 @@ button:hover {
     .cont {
         max-width: 600px;
         display: flex;
+    }
+
+    .mobile-img {
+        display: none;
+    }
+
+    .desktop-img {
+        display: block;
+        width: 50%;
+    }
+
+    .text-section {
+        padding: 35px;
+    }
+
+    .prod-name {
+        font-size: 35px;
     }
   
 }
