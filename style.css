@@ -25,6 +25,10 @@ body {
     overflow: hidden;
 }
 
+.desktop-img {
+    display: none;
+}
+
 .mobile-img {
     width: 100%;
 }
@@ -98,4 +102,5 @@ button:hover {
         max-width: 600px;
         display: flex;
     }
+  
 }
